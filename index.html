@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">    
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+
+    <title>Darija Softic Shop</title>
+  </head>
+  <body>
+    <div id="wrapper">
+        <header class="header">
+            <div class="header-logo">
+                <img src="images/logo.png">
+                <h3>Darija Softic Moto</h3>
+            </div>
+
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Pocetna</a></li>
+                    <li><a href="#">O nama</a></li>
+                    <li><a href="#">Galerija</a></li>
+                    <li><a href="#">Proizvodi</a></li>
+                    <li><a href="#">Kontakti</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="content">
+            <div class="form">
+                <form action="1.php" method="POST">
+                    <label for="username">Ime</label>
+                    <input type="text" name="name" placeholder="Unesite vase ime" minlength="3"> <br>
+                    <label for="username">Prezime</label>
+                    <input type="text" name="lastname" placeholder="Unesite vase prezime" minlength="3"> <br>
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Unesite email" name="email"> <br>
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Unesite sifru" name="password"> <br>
+                    <label for="smerovi">Smer</label>
+                    <select name="smerovi">
+                        <option value="racunarskenauke">Racunarske nauke</option>
+                        <option value="racunarsko inzinjerstvo">Racunarsko inzenjerstvo</option>
+                        <option value="dizajn">Dizajn</option>
+                        <option value="strukovne">Strukovne studije</option>
+                    </select> <br>
+                    <input type="submit" value="Posalji" id="button">
+                </form>
+            </div>
+
+            
+            <div class="proizvodi">
+                <div class="proizvod">
+                    <div class="proizvod-slika">
+                        <img src="images/air-max-bella-2.jpg">
+                    </div>
+                    <div class="proizvod-container">
+                        <h4 class="proizvod-title">Women's Air Max Bella 2 Training Shoe</h4> 
+                        <p class="proizvod-cena">$75.98</p>
+                        <div class="proizvod-kolicina">
+                            <input type="number" name="kolicina" value="1">
+                            <button>Dodaj u korpu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proizvod">
+                    <div class="proizvod-slika">
+                        <img src="images/air-zoom.jpg">
+                    </div>
+                    <div class="proizvod-container">
+                        <h4 class="proizvod-title">Nike Air Max Bella TR 2 Women's Training Shoe</h4> 
+                        <p class="proizvod-cena">$79.99</p>
+                        <div class="proizvod-kolicina">
+                            <input type="number" name="kolicina" value="1">
+                            <button>Dodaj u korpu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proizvod">
+                    <div class="proizvod-slika">
+                        <img src="images/bella-pink.jpg">
+                    </div>
+                    <div class="proizvod-container">
+                        <h4 class="proizvod-title">Nike Air Max Bella TR 2 Women's Training Shoe</h4> 
+                        <p class="proizvod-cena">$85.99</p>
+                        <div class="proizvod-kolicina">
+                            <input type="number" name="kolicina" value="1">
+                            <button>Dodaj u korpu</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="vesti-container">
+            <div class="vest">
+                <div class="vest-slika">
+                    <img src="images/bella-pink.jpg">
+                </div>
+                <div class="vest-content">
+                    <h4 class="vest-title">Da li ste znali da su stigle nove Nike patike?</h4> 
+                    <p class="vest-subtitle">
+                        Najnoviji model za sezonu jesen/zima 2020 je stigao u Beograd.
+                    </p>
+                </div>
+            </div>
+
+            <div class="vest">
+                <div class="vest-slika">
+                    <img src="images/bella-pink.jpg">
+                </div>
+                <div class="vest-content">
+                    <h4 class="vest-title">Da li ste znali da su stigle nove Nike patike?</h4> 
+                    <p class="vest-subtitle">
+                        Najnoviji model za sezonu jesen/zima 2020 je stigao u Beograd.
+                    </p>
+                </div>
+            </div>
+
+            <div class="vest">
+                <div class="vest-slika">
+                    <img src="images/bella-pink.jpg">
+                </div>
+                <div class="vest-content">
+                    <h4 class="vest-title">Da li ste znali da su stigle nove Nike patike?</h4> 
+                    <p class="vest-subtitle">
+                        Najnoviji model za sezonu jesen/zima 2020 je stigao u Beograd.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>Darija Softic S18/17</p>
+            <p>Koste Abrasevica 2, 11050 Beograd</p>
+            <p>dsoftic17@raf.rs, 063265077</p>
+        </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+.header {
+	background-color: #e7e7e7;
+	padding: 10px;
+	overflow: auto;
+}
+
+.header-logo {
+	float: left;
+}
+
+.header-logo img {
+	width: 50px;
+}
+
+.header-logo h3 {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.nav {
+	margin: 0 auto;
+	padding: 0;
+	float: right;
+}
+
+.nav ul {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    float: left;
+    text-align: center;
+	padding: 10px;
+    font-size: 16px;
+}
+
+.nav ul li a {
+	color: #222;
+    display: block;
+    text-decoration: none;
+    padding:8px 20px;
+}
+
+.nav ul li a:hover {
+    color: #F15C11;
+}
+	
